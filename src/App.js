@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Project from "./components/Project";
+import Projects from "./components/Projects";
 
 import "./App.css";
 
@@ -15,7 +15,7 @@ function App() {
     <Router>
         <Navbar/>
         <Header/>
-        <Project/>
+        <Projects/>
         <Footer/>
     </Router>
   );
